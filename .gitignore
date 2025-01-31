@@ -1,0 +1,11 @@
+# Ignoriere Terraform State-Dateien
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignoriere sensible Variablen-Dateien
+*.tfvars
+*.tfvars.json
+
+# Ignoriere lokale Terraform-Konfigurationen
+.terraform.lock.hcl
